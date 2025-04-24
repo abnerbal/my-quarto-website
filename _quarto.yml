@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs   # 👈 Add this line
 
 website:
   title: "my-website"
@@ -16,6 +17,3 @@ format:
       - brand
     css: styles.css
     toc: true
-
-
-
